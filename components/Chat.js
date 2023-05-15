@@ -8,12 +8,12 @@ export default function Chat() {
   const [messages, setMessages] = useState([
     {
       role: "human",
-      message: "Please load two documents before answer me 👋. ",
+      message: "Please load 'state_of_the_union.txt' before answer me 👋. ",
     },
     {
       role: "ai",
       message:
-        "🤖 beep boop. 100% loading Doc1) Harrison went to Harvard; Doc2) Ankush went to Princeton.",
+        "🤖 beep boop. 100% loading completed. Ask me: What did the president say about Justice Breyer?",
     },
   ]);
 
