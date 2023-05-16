@@ -14,7 +14,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 export default async function handler(req, res) {
   if (!OPENAI_API_KEY) {
-    throw new Error("OPENAI_API_KEY is not defined.");
+    res.status(200).json({ text: "OPENAI_API_KEY is not defined." });
   }
   console.log("OPENAI_API_KEY=", OPENAI_API_KEY);
 
