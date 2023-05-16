@@ -12,9 +12,7 @@ import { OpenAI } from "langchain/llms/openai";
 import { loadQAStuffChain, loadQAMapReduceChain } from "langchain/chains";
 import { Document } from "langchain/document";
 
-// const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-export const OPENAI_API_KEY =
-  "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";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 export const config = {
   api: {
