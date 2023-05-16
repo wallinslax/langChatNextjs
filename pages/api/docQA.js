@@ -11,10 +11,13 @@ import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 
 let chatHistory = "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-// const OPENAI_API_KEY =
-//   "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";
 
 export default async function handler(req, res) {
+  if (!OPENAI_API_KEY) {
+    throw new Error("OPENAI_API_KEY is not defined.");
+  }
+  console.log("OPENAI_API_KEY=", OPENAI_API_KEY);
+
   const body = req.body;
   const question = body.query;
   //------------------------------------------------
@@ -22,7 +25,7 @@ export default async function handler(req, res) {
   // https://js.langchain.com/docs/modules/chains/index_related_chains/document_qa
   // This first example uses the `StuffDocumentsChain`.
   const llmA = new OpenAI({
-    // openAIApiKey: OPENAI_API_KEY,
+    openAIApiKey: OPENAI_API_KEY,
     temperature: 0.9,
   });
   const chainA = loadQAStuffChain(llmA);
@@ -46,7 +49,7 @@ export default async function handler(req, res) {
   /* Create the vectorstore */
   const vectorStore = await HNSWLib.fromDocuments(
     docs2,
-    new OpenAIEmbeddings()
+    new OpenAIEmbeddings({ openAIApiKey: OPENAI_API_KEY })
   );
   /* Create the chain */
   const chainB = ConversationalRetrievalQAChain.fromLLM(

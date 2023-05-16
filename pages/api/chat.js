@@ -28,7 +28,6 @@ export default async function handler(req, res) {
     if (!OPENAI_API_KEY) {
       throw new Error("OPENAI_API_KEY is not defined.");
     }
-
     const encoder = new TextEncoder();
     const stream = new TransformStream();
     const writer = stream.writable.getWriter();
