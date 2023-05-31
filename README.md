@@ -1,8 +1,15 @@
-Check here 
+## Des
 
 Try Document-based Question Answering (DocQA) :point_right: [here](https://lang-chat-nextjs.vercel.app/)
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
+## Demo
+
+## Tech Stack
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![OpenAI](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI&color=0081A5&logo=OpenAI+Gym&logoColor=FFFFFF&label=)
+
 
 ## Getting Started
 
