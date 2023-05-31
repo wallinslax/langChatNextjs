@@ -4,6 +4,9 @@ Try Document-based Question Answering (DocQA) :point_right: [here](https://lang-
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
 ## Demo
+load document: [state_of_the_union.txt](state_of_the_union.txt)
+
+
 
 ## Tech Stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
