@@ -14,7 +14,8 @@ https://github.com/wallinslax/langChatNextjs/assets/20626329/37dccadb-e21e-4f9b-
 ## Tech Stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![OpenAI](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI&color=0081A5&logo=OpenAI+Gym&logoColor=FFFFFF&label=)
+![OpenAI](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI&color=0081A5&logo=OpenAI&logoColor=FFFFFF&label=)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Getting Started
