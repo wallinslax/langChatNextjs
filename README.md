@@ -1,13 +1,27 @@
-## Document-based Question Answering (DocQA)
-Try  :point_right: [here](https://lang-chat-nextjs.vercel.app/)
-
+# Document-based Question Answering (DocQA)
 This feature provides the capability to efficiently retrieve information from extensive document repositories, including legal proceedings.
+Sample Loaded Document: [state_of_the_union.txt](state_of_the_union.txt)
+
+## Try  :point_right: [here](https://lang-chat-nextjs.vercel.app/)
+
+1. Try Ask: What did the president say about Justice Breyer?
+
+2. Try Ask follow up: Is this good?
+
+3. Try ask irrelevant question: Where am I?
+
+
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
 ## Demo
-load document: [state_of_the_union.txt](state_of_the_union.txt)
+
+
+
 
 https://github.com/wallinslax/wallinslax/assets/20626329/c9997f51-0960-4049-9a7d-adbcf6b579bb
+
+
+
 
 ## Tech Stack
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
