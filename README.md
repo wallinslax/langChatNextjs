@@ -4,12 +4,20 @@ Sample Loaded Document: [state_of_the_union.txt](state_of_the_union.txt)
 
 ## Try  :point_right: [here](https://lang-chat-nextjs.vercel.app/)
 
-1. Try Ask: What did the president say about Justice Breyer?
+1. Try ask:
+   ```
+   What did the president say about Justice Breyer?
+   ```
 
-2. Try Ask follow up: Is this good?
+2. Try ask follow up:
+   ```
+   Is this good?
+   ```
 
-3. Try ask irrelevant question: Where am I?
-
+3. Try ask irrelevant question:
+   ```
+   Where am I?
+   ```
 
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
